@@ -1,0 +1,6 @@
+.vscode/
+
+venv/
+
+p100knocks/sample/*
+!.gitkeep
