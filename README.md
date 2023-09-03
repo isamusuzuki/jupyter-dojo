@@ -2,7 +2,7 @@
 
 Jupyter 道場（Jupyter Notebook サンプルコード集）
 
-作業日 2023/08/30
+作業日 2023/08/30、更新日 2023/09/03
 
 ## 01. ファイル・フォルダ構成
 
@@ -58,3 +58,10 @@ pip install -r requirements.txt -c constraints.txt
 - Pylance
 - Python
 - Rainbow CSV
+
+## 03. スクリプト実行
+
+新しくノートブックを作成する方法は以下の通り
+
+- `Ctrl+Shift+P`でコマンドパレットを開き、`Create: New Jupyter Notebook`コマンドを選択する
+- ノートブックの右上に`カーネルの選択`があるので、`venv(Python3.10.12)`を指定する
